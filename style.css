@@ -87,3 +87,21 @@ ul li {
 .conf-tag.ccs {
     background-color: #9E4734; 
 }
+
+/* 通用会议标签样式 */
+.award-tag {
+    color: white !important; /* 文字颜色为白色 */
+    background-color: #efab0c; /* 默认背景颜色（绿色）*/
+    font-size: 16px; /* 字体大小略小于正文 */
+    font-weight: bold;
+    padding: 1px 4px; /* 上下左右内边距 */
+    border-radius: 4px; /* 轻微圆角 */
+    /* 确保标签在行内显示，并稍微向上对齐 */
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1; 
+}
+/* CCS 标签颜色 (绿色) */
+.award-tag.ccs {
+    background-color: #efab0c; 
+}
